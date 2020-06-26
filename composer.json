@@ -1,0 +1,38 @@
+{
+    "name": "dazzlesoftware/authentication",
+    "type": "library",
+    "description": "Dazzle Authentication Package",
+    "keywords": ["dazzle", "framework", "authentication"],
+    "homepage": "https://github.com/dazzle-framework/authentication",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": "^7.3.0",
+    },
+    "require-dev": {
+        "dazzlesoftware/dazzle-coding-standard": "^1.0",
+        "dazzlesoftware/database": "^1.0",
+        "dazzlesoftware/input": "^1.0",
+        "phpunit/phpunit": "^9.0",
+        "symfony/phpunit-bridge": "^3.4|^4.4|^5.0"
+    },
+    "suggest": {
+        "dazzlesoftware/database": "Required if you want to use Dazzle\\Authentication\\Strategies\\DatabaseStrategy",
+        "dazzlesoftware/input": "Required if you want to use classes in the Dazzle\\Authentication\\Strategies namespace"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazzle\\Authentication\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dazzle\\Authentication\\UnitTests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-2.0-dev": "2.0-dev"
+        }
+    }
+}
