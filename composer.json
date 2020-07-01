@@ -6,7 +6,7 @@
     "homepage": "https://github.com/dazzle-framework/authentication",
     "license": "GPL-3.0-or-later",
     "require": {
-        "php": "^7.3.0",
+        "php": "^7.3.0"
     },
     "require-dev": {
         "dazzlesoftware/dazzle-coding-standard": "^1.0",
